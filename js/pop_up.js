@@ -26,9 +26,13 @@ function show_clock(){
 }
 
 
-function over(obj){
+/*function over(obj){
     obj.src="image/LOGO.png";
-}
+}*/
+
+const over = (obj) => {
+    obj.src="image/LOGO.png";
+};
 
 function out(obj){
     obj.src="image/LOGO_2.png";
