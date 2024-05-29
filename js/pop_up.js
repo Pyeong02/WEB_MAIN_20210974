@@ -58,10 +58,6 @@ function closePopup(){
     }
 }
 
-
-
-
-
 /*function over(obj){
     obj.src="image/LOGO.png";
 }*/
