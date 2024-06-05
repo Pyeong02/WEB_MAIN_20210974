@@ -22,13 +22,9 @@
         <script type="text/javascript" src="js/Basic_js_test.js" defer></script>
         <script type="text/javascript" src="js/search.js" defer></script>
         <script type="text/javascript" src="js/data_type.js" defer></script>
-        <script type="text/javascript" src="js/pop_up.js" defer></script>
-       
-       
-      </head>
-     
-   
-
+        <script type="text/javascript" src="js/pop_up.js" defer></script> 
+        <script type="text/javascript" src="js/join.js" defer></script>         
+    </head>
     
       <body style="background-color:black;" onload="pop_up();">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -76,6 +72,11 @@
             <button class="btn btn-outline-success" id="search_btn" type="submit">검색하기</button> <!--자바에서getElementById("search_btn")부분에 대한 id를 추가해준 것-->
           </form>
           <a href="login/login.html" class="btn btn-outline-success" id="login_btn">로그인 하기</a>
+          <input class="btn btn-primary btn-lg" onclick="join()" type="button" id="join_btn" value="회원 가입" />
+
+
+
+
 
         </nav>
         <!--<div style="display: flex; justify-content: center:">
